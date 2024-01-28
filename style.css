@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 160px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.full-container{
+    display: flex;
+    
+}
+
+/*vertical navbar*/
+.ver-container{
+    margin-right: 50px;
+}
+
+.ver-nav-bar {
+    font-size: 20px;
+    width: 500px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.ver-nav-bar a{
+    display: block;
+    color: rgb(58, 58, 58);
+    padding: 8px 22px;
+    text-decoration: none;
+    background-color: #e1e1e1;
+    transition: background-color 0.8s ease, color 0.8s ease;
+
+  
+}
+
+
+.ver-nav-bar a:hover {
+    background-color: rgb(255, 77, 0);
+    color: rgba(255, 255, 255, 0.987);
+  }
+
+
+/* black horizontal navbar*/
+
+.hor-black-container{
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+.hor-black-nav-bar{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282828;
+  }
+
+.hor-black-nav-bar a{
+    display: block;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.987);
+    padding: 12px 28px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.8s ease;
+}
+
+
+.hor-black-nav-bar a:hover{
+    background-color: rgb(255, 77, 0);
+    color: rgba(255, 255, 255, 0.987);
+}
+
+.about-black {
+    margin-left: auto;
+}
+
+/*white horizontal nav.bar */
+
+.hor-white-container{
+    width: 1000px;
+    margin-top: 20px;
+}
+
+.hor-white-nav-bar{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e1e1e1;
+  }
+
+.hor-white-nav-bar a{
+    display: block;
+    text-align: center;
+    color: rgb(58, 58, 58);
+    padding: 12px 28px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.8s ease;
+}
+
+
+.hor-white-nav-bar a:hover{
+    background-color: rgb(255, 77, 0);
+    color: rgba(255, 255, 255, 0.987);
+}
+
+.about-white {
+    margin-left: auto;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e1e1e1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 18px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(253, 140, 92);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown label {
+    display: block;
+    color: rgb(58, 58, 58);
+    padding: 12px 28px;
+    text-decoration: none;
+    background-color: #e1e1e1;
+    transition: background-color 0.8s ease, color 0.8s ease;
+    font-size: 20px;
+
+}
+
+.dropdown label:hover {
+    background-color: rgb(255, 77, 0);
+    color: rgba(255, 255, 255, 0.987);
+}
+
+.dropdown-container:hover .dropdown-content {
+    display: block;
+}
+
+#toggle {
+    display: none;
+}
